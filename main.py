@@ -44,10 +44,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Home Section
-
 st.markdown('<h1 style="text-align: center;">Beekesh Singh</h1>', unsafe_allow_html=True)
-st.image("PIC.jpg", width=250, caption="Aspiring Data Scientist", use_container_width=False)
-
+st.markdown('<div class="profile-img">', unsafe_allow_html=True)
+st.image("PIC.jpg", width=250, caption="Aspiring Data Scientist")  # Add your image path here
+st.markdown('</div>', unsafe_allow_html=True)
 
 st.write(
     """
