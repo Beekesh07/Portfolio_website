@@ -46,7 +46,8 @@ st.markdown("""
 # Home Section
 
 st.markdown('<h1 style="text-align: center;">Beekesh Singh</h1>', unsafe_allow_html=True)
-st.image("PIC.jpg", width=250, caption="Aspiring Data Scientist", use_column_width=False)  # Add your image path here
+st.image("PIC.jpg", width=250, caption="Aspiring Data Scientist", use_container_width=False)
+
 
 st.write(
     """
