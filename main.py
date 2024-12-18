@@ -39,7 +39,7 @@ st.markdown("""
 st.markdown('<h1 style="text-align: center;">Beekesh Singh</h1>', unsafe_allow_html=True)
 
 # Centering the image using columns to align with title
-col1, col2, col3 = st.columns([1, 4, 1])  # Adjusted column ratio to center the image more
+col1, col2, col3 = st.columns([4.3, 6, 1])  # Adjusted column ratio to center the image more
   # Create columns with adjustable width ratio
 with col2:
     st.image("PIC.jpg", width=250, caption="Aspiring Data Scientist")  # Add your image path here
